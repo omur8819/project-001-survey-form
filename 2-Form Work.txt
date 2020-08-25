@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Work</title>
+</head>
+
+<body>
+    
+<form action="result.html" name="myfirstform">
+    
+    <div>
+        <label>Username: <input type="text" name="username" id="username" placeholder="username"></label><br>
+    </div>
+    <div>
+        <label>Surname&nbsp&nbsp: <input type="text" name="surname" id="surname" placeholder="surname"></label><br>
+    </div>
+    <div>
+        <label>Password :&nbsp<input type="password" name="password" id="password" placeholder="password"></label><br><hr>
+    </div>
+    <div>
+        <label>Male&nbsp&nbsp&nbsp&nbsp<input type="radio" name="gender" value="male" checked></label><br>
+        <label>Female <input type="radio" name="gender" value="female"></label><br>
+        <div>
+            <label for="age">Age</label>
+            <input type="number" name="age" id="age" step="1" min="18" max="100" placeholder="age">
+        </div><hr>
+    </div>
+    <div>Available Days : <br>
+        <label>Monday<input type="checkbox" name="gün" value="Monday"></label><br>
+        <label>Tuesday<input type="checkbox" name="gün" value="Tuesday"></label><br>
+        <label>Wednesday<input type="checkbox" name="gün" value="Wednesday"></label><br>
+        <label>Thursday<input type="checkbox" name="gün" value="Thursday"></label><br>
+        <label>Friday<input type="checkbox" name="gün" value="Friday"></label><br>
+        <label>Saturday<input type="checkbox" name="gün" value="Saturday"></label><br>
+        <label>Sunday<input type="checkbox" name="gün" value="Sunday"></label><br><hr>    
+    </div>
+    <div>
+        <label>Select your favourite color : <input type="color" name="color"></label><br><hr>
+    </div>
+    <div>
+        <label>Your Birthday : <input type="date" name="date" min="1980-01-01" max="2010-01-01"></label><br><hr>
+    </div>
+
+    <div>
+        <label>E-mail adress : <input type="email" name="email" maxlength="55" placeholder="e-mail"></label><br><hr>
+    </div>
+    <div>
+        <label>Enter your phone number : <input type="tel" name="tel" pattern="[0-9]{3}-[0-9]{7}"placeholder="phone"></label><br><hr>
+    </div>
+        <label>Select a file : <input type="file" name="file"></label><br><hr>
+    <div>
+        <label for=""></label>
+    </div>
+
+    <div>
+        <label><textarea name="textarea" id="textarea" cols="35" rows="5" placeholder="Send us your message"></textarea></label>
+    </div>
+    <div><label for="gsearch">Search Google : </label>
+        <input type="search" name="search" id="gsearch" placeholder="Search">
+    </div>
+
+
+    <div>
+        <input type="submit" value="Send">
+    </div>
+    <div>
+        <input type="reset" value="Reset">
+    </div>
+
+</form>
+
+</body>
+</html>
