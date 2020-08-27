@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Netflix Survey Form</title>
+</head>
+<body>
+  <div id="all_box">
+    <h1 id="title"> 
+        NET
+        <span>FLIX</span>
+      </h1>
+
+    <h3 id="h3">Thank you for signing up at Netfix. Tell us more about your self
+    </h3>
+
+    <form id="form" action="resultnetflix.html">
+
+      <div class="form_box">
+        <label>Name <br>
+        <input type="text" name="name" placeholder="enter your name" required="" id="name"></label>
+      </div>
+    <div class="form_box">
+        <label>Age <br>
+        <input type="number" name="age" placeholder="age" required="" id="number"></label>
+    </div>
+    <div class="form_box">
+        <label>Email <br><input type="email" name="email" placeholder="enter your Email" required="" id="email"></label>
+    </div>
+    <div class="form_box">
+        <label>Content type <br>
+        <select name="content_type" id="dropdown">
+            <option value="Series">Series</option>
+            <option value="Movies">Movies</option>
+            <option value="Documentaries">Documentaries</option><br>
+            </select>   
+        </label>
+    </div>
+    <div class="form_box">
+        <label>Movie type <br>
+        <input type="checkbox" name="movie_type" value="Comedy"> Comedy</label>
+        <label><br><input type="checkbox" name="movie_type" value="Action"> Action</label>
+        <label><br><input type="checkbox" name="movie_type" value="Romance" checked> Romance
+        </label>
+    </div>
+    <div class="form_box">
+        <label>Gender <br><input type="radio" name="gender" value="male"> Male </label>
+        <label><br><input type="radio" name="gender" value="female"> Female </label>
+        <label><br><input type="radio" name="gender" value="other"> Other 
+    </label>
+    </div>
+    <div class="form_box_textarea">
+        <label>Feed back <br><br>
+        <textarea name="message" id="" cols="50" rows="5" placeholder="any comment"></textarea><br>
+        </label>
+    </div>
+    <div class="form_box">
+        <label><input type="submit" value="Gönder" id="submit"></label>
+    </div>
+
+</form>
+</div>
+</body>
+</html>
